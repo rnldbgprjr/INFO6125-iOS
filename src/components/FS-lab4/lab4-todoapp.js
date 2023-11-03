@@ -19,6 +19,7 @@ function LabFourTodoApp() {
 
     const dbCollection = collection( dbFS, 'todo-apps' );
     const unsubscribe = onSnapshot( dbCollection, ( snapshot ) => {
+      
         const newData = []
         snapshot.forEach( ( doc ) => {
 
