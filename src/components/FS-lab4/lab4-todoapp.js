@@ -57,7 +57,7 @@ function LabFourTodoApp() {
         return date.toLocaleDateString(undefined, options);
       }
 
-    // * * *  MODAL SECTION CONTROL * * * * 
+    // * * *  MODAL SECTION CONTROL * * * *  * * *
 
     const openModal = ( item ) => {
 
